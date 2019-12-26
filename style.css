@@ -7,13 +7,22 @@
 }
 #kutu{
     position: absolute;
-    width: 20px;
-    height: 20px;
-    top: 140px;
-    left: 140px;
-    background-color: green;
-    
+    width: 33.75px;
+    height: 30px;
+    font-size: 45px;
+    top: 255px;
+    left: 130px;
 }
+#panel{
+    width: 300px;
+    height: 12px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: white;
+    z-index: 500;
+}
+
 #btn{
     position: absolute;
     top:110px;
@@ -25,19 +34,33 @@
     cursor: pointer;
     
 }
+#btn2{
+    position: absolute;
+    top:130px;
+    left: 30px;
+    padding: 8px;
+    background-color: white;
+    color: green;
+    border: none;
+    cursor: pointer;
+    visibility: hidden;
+    z-index: 100;
+    
+}
 
 .kutular{
     position: absolute;
-    width: 10px;
-    height: 10px;
-    top: 40px;
-    left: 40px;
+    width: 17.5px;
+    height: 20px;
+    top: 0px;
+    color: rgb(229, 255, 0);
     z-index: 100;
-    background-color: red;
+    font-size: 20px;
+  
 }
 .gosterge{
     width: 140px;
-    height: 100px;
+    height:50px;
     background-color: white;
     color: green;
     position: absolute;
@@ -46,5 +69,10 @@
     font-size: 22px;
     text-align: center;
     padding: 2px;
-    
+}
+#gosterge2{
+    position: absolute;
+    top:30px;
+    left: 325px;
+    z-index: -5;
 }
